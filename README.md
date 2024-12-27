@@ -8,7 +8,7 @@ Dockerfile
 ```
 FROM python:3-alpine
 
-RUN pip3 install --root-user-action requests
+RUN pip3 install --root-user-action ignore requests
 ```
 
 build multiarch images on Ubuntu with buildx and qemu-user-static
