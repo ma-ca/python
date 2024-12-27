@@ -11,8 +11,11 @@ env:
 
 jobs:
 
-  build-postfix:
+  build-python:
     runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
 
     steps:
       - name: Checkout
